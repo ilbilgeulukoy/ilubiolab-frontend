@@ -11,18 +11,17 @@ function App() {
           <img src="/logo.png" className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1> Ilubio Lab</h1>
+      <h1
+        style={{
+          fontFamily: "Aleo-Italic",
+        }}
+      >
+        {" "}
+        Ilubio Lab
+      </h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <button onClick={() => setCount((count) => count + 1)}>WELCOME</button>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }
